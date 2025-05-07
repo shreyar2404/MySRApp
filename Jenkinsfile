@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'hhttps://github.com/shreyar2404/MySRApp.git'
+                git branch: 'master', url: 'https://github.com/shreyar2404/MySRApp.git'
             }
         }
 
